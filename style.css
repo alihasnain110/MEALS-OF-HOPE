@@ -1,0 +1,350 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    /* width: 100%; */
+}
+.divnav{
+    background-color: rgba(185, 6, 6, 0.904);
+    padding: 10px;
+    overflow-x: hidden;
+    
+}
+.navcontact{
+    border: 2px solid  rgba(185, 6, 6, 0.904); ;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 10px;
+}
+.divnav a{
+    margin-left: 20px;
+}
+.navlogo{
+    padding-left: 700px;
+}
+.navitems{
+color: black;
+}
+.navbtn{
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(185, 6, 6, 0.904);
+    color: white;
+    padding:8px 19px;
+    margin-left: 90px;
+}
+.navbtn:hover{
+    background-color:rgba(223, 11, 11, 0.904) ;
+
+}
+
+
+/* first section css */
+.img{
+    width: 100%;
+    height:562px;
+}
+ .sildeheading{
+    position: relative;
+    right: 340px;
+    bottom: 70px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+ }
+.sildepara{
+    position: relative;
+    right: 290px;
+    bottom: 70px;
+}
+.slidebtn{
+    position: relative;
+    right: 400px;
+    bottom: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* second section css  */
+
+.secondsectionheading{
+    padding-top: 80px;
+    text-align: center;
+}
+.cardbodystyling a{
+    text-decoration: none;
+    color: white;
+    border-radius:50px;
+    background-color:rgba(185, 6, 6, 0.904);
+    padding: 10px 20px;
+}
+
+.cardbodystyling a :hover{
+    background-color:rgba(223, 11, 11, 0.904) ;
+
+    cursor: pointer;
+}
+.cardbodystyling h3:hover{
+    cursor: pointer;
+
+    color:rgba(223, 11, 11, 0.904) ;
+}
+.card:hover{
+    box-shadow: 0px 5px 5px black;
+}
+.cardwidth{
+    padding-top: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+    
+}
+
+.cardend{
+    display: inline-block;
+}
+.cardend span{
+    color:rgba(185, 6, 6, 0.904) ;
+    font-size: 18px;
+}
+.cardend small{
+    color: rgb(87, 81, 81);
+}
+
+
+
+/* third section css  */
+
+.thirdsection{
+    background-color: rgba(252, 239, 241, 0.925);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 120px;
+
+    padding-bottom: 200px;
+}
+.thirdsectionseconddiv h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+.thirdsectionpara{
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.thirdsectionimg{
+    padding-left: 110px;
+    padding-top: 100px;
+    width: 600px;
+    height: 500px;
+}
+.thirdsectionbutton{
+    background-color:rgba(185, 6, 6, 0.904);
+    padding: 10px;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid rgba(223, 11, 11, 0.904);
+    text-decoration: none;
+}
+.thirdsectionbutton:hover{
+    background-color:rgba(223, 11, 11, 0.904);
+
+}
+
+/* four section css  */
+.main{
+    
+    text-align:center;
+    background-image: url('./images/section-bg1.jpg');
+    width: 100%;
+    background-size: cover;
+background-repeat: no-repeat;
+    /* overflow-x: hidden; */
+    height: 150px;
+    padding: 50px;
+
+}
+.foursection span{
+    font-size: large;
+}
+.foursectionbody{
+    font-weight: bold;
+}
+
+/* five section css  */
+.fivesection{
+    padding-top: 120px;
+}
+.fivesection h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.fivesection p{
+    font-size: 20px;
+}
+
+
+.fivesectiondivone{
+    padding-top: 50px;
+
+    margin-left: 80px;
+    /* padding: 20px; */
+    text-align: center;
+}
+.fivesectiondivone img{
+    padding-bottom: 20px;
+}
+.fivesectionheading{
+    text-decoration: none;
+    line-height: 70px;
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.fivesectionheading:hover{
+    color:rgba(223, 11, 11, 0.904);
+    cursor: pointer;
+}
+
+
+/* six section css  */
+.sixsection{
+    background-image: url('./images/section-bg2.jpg');
+    height: 600px;
+    background-size: cover;
+background-repeat: no-repeat;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.sixsectiondiv{
+    background-color: white;
+    color: black;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.sixsectiondiv p{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/* seven section css  */
+.sevensection{
+    height: 450px;
+    margin-left: 300px;
+}
+.sevensectionmain{
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sevensectionheading{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sevenpara{
+    line-height: 30px;
+    padding-top: 20px;
+}
+.sevensecitonimage{
+    height: 300px;
+}
+
+
+/* eight section css  */
+.eightsection{
+    background-color:rgb(53, 2, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.eightsecontion{
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height: 500px;
+
+}
+.handholdinghearticion{
+    color: rgba(185, 6, 6, 0.904);
+}
+.eightsecdinone{
+        padding-top: 80px;
+        margin-left: 60px;
+    padding-left: 50px;
+
+
+}
+
+.eightsecdinone p{
+    padding: 20px 10px;
+    line-height: 20px;
+    font-size: large;
+}
+.eightsecdinone a{
+    text-decoration: none;
+color: white;
+    padding: 10px;
+    font-size: larger;
+}
+.eightsecdivtwo{
+    padding-top: 80px;
+    margin-left: 30px;
+    padding-left: 50px;
+    color: white;
+
+    
+
+}
+.eightsecdivtwo h3{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.eightsecdivtwo a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+.eightsecdivtwo a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.eightsectionemail{
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+}
+.eightsectionemail:focus{
+border-color: white;
+    border: none;
+}
+
+.arrowbtn{
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+
+/* footersection css  */
+
+
+
+.footer{
+    background-color:rgb(53, 2, 23);
+    color: white;
+}
+.footerlink{
+    text-decoration: none;
+    color: white;
+    color: rgba(175, 10, 101, 0.781);
+
+}
